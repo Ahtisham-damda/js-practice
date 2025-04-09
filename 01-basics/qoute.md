@@ -1,0 +1,1 @@
+A winner is not the one who tries different things but the one who tries things differently
