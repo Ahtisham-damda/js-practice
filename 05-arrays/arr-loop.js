@@ -1,4 +1,4 @@
-    let sales = [90000 , 10000 , 25000];
+    // let sales = [90000 , 10000 , 25000];
 
 
 // let totalSale = 0 ;
@@ -23,14 +23,14 @@
 // console.log(`Total Sales Using For Of = ${totalSales}`);
 
 
-totalSales = 0;
-let calcSale = (sale) =>{
-}
-    sales.forEach((Sale,i) => {
-        console.log(`Sales of Day ${i+1} = ${Sale}`);
-        totalSales += Sale;
-})
-console.log(`Total Sales Using For Each = ${totalSales}`);
+// totalSales = 0;
+// let calcSale = (sale) =>{
+// }
+//     sales.forEach((Sale,i) => {
+//         console.log(`Sales of Day ${i+1} = ${Sale}`);
+//         totalSales += Sale;
+// })
+// console.log(`Total Sales Using For Each = ${totalSales}`);
 
 
 // totalSales = 0;
@@ -42,3 +42,15 @@ console.log(`Total Sales Using For Each = ${totalSales}`);
 //     totalSales += sale;
 // })
 // console.log(`Total Sales using For Each = ${totalSales}`);
+
+
+let sales = [90000, 10000, 25000];
+let totalSales = 0;
+
+sales.forEach((sale, i) => {
+    console.log(`Sales of Day ${i + 1} = ${sale}`);
+    totalSales += sale;
+});
+
+console.log(`Total Sales Using For Each = ${totalSales}`);
+
